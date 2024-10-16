@@ -26,7 +26,7 @@ public class InventoryItem {
 			return;
 		}
 		this.quantityInStock = quantityInStock;
-	}
+	} 
 
 	public String getItemName() {
 		return itemName;
