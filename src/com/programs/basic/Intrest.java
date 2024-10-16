@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Intrest {
 
-	public static void main(string[] args) {
+	public static void main(String[] args) {
 
 		Scanner in = new Scanner(System.in);
 		double principal = in.nextDouble();
