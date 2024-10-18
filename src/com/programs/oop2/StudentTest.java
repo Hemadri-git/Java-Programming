@@ -4,13 +4,12 @@ public class StudentTest {
 
 	public static void main(String[] args) {
 	
-		Student student = new Student("hema", 101,"It" , 1200);
-		student.calculateGrade(99);
+		Student student = new Student("Hemadri", 1211, "IT", 10000);
+		student.calculateGrade(97);
 //		System.out.println(student);
 		
-		Student st2 = new Student(student);
-		System.out.println(st2);
-				
-		
+		Student student2 = new Student(student);
+		student2.calculateGrade(67);
+		System.out.println(student2);
 	}
 }
