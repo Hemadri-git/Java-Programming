@@ -8,6 +8,10 @@ public class Employee2 {
 	private double salary;
 	private int noOfProject;
 	
+	public Employee2(String string, String string2, int i, int j, int k) {
+		// TODO Auto-generated constructor stub
+	}
+
 	public void setEmployeeData(String firstName, String lastName, int employeeId, double salary,  int noOfProject) {
 		
 		this.firstName = firstName;

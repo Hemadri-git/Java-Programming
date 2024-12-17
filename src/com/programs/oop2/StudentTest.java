@@ -6,7 +6,7 @@ public class StudentTest {
 	
 		Student student = new Student("Hemadri", 1211, "IT", 10000);
 		student.calculateGrade(97);
-//		System.out.println(student);
+		System.out.println(student);
 		
 		Student student2 = new Student(student);
 		student2.calculateGrade(67);
