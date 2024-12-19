@@ -1,4 +1,4 @@
-package com.programs.thread;
+package tasksGPT;
 
 //Education Institute Course Enrollment System
 
