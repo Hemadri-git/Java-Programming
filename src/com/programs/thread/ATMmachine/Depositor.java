@@ -13,8 +13,8 @@ public class Depositor extends Thread {
 	public void run() {
 		int []deposits = {1000, 2000, 3000};
 		
-		for(int deposit : deposits) {
-			account.deposit(deposit);
+		for(int amount : deposits) {
+			account.deposit(amount);
 
 			try {
 				Thread.sleep(1000);

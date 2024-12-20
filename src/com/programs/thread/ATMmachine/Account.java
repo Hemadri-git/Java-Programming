@@ -2,7 +2,7 @@ package com.programs.thread.ATMmachine;
 
 public class Account {
 
-	int balance = 0;
+	 int balance = 0;
 	
 	public synchronized void withdraw(int amount) {
 		while(balance < amount) {
@@ -20,9 +20,12 @@ public class Account {
 		notify();
 	}
 	
+
 	public synchronized void deposit(int amount) {
 		balance = amount + balance;
         System.out.println(Thread.currentThread().getName() + " deposited: " + amount + ", Updated Balance: " + balance);
 		notify();
 	}
+	
+	
 }

@@ -19,7 +19,6 @@ public class ATMMachine {
 			depositor.join();
 			drawer.join();
 		} catch (Exception e) {
-			// TODO: handle exception
 		}
 		
 		System.out.println("final balance : " + account.balance);
